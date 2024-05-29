@@ -1,1 +1,14 @@
+# Ignore everything
+*
+
+# Except main.py
+!main.py
+
+# Do not ignore directories (so that !main.py works)
+!*/
+
+# Ignore __pycache__ directory
 __pycache__/
+
+# Explicitly ignore the virtual environment directory
+fastapi-venv/
