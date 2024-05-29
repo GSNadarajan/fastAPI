@@ -1,8 +1,0 @@
-# Ignore everything
-*
-
-# Except main.py
-!main.py
-
-# Do not ignore directories (so that !main.py works)
-!*/
